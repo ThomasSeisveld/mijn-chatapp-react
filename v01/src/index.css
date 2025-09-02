@@ -9,8 +9,8 @@
 }
 
 body {
-  background-image: url("/navy.jpg");
-  background-color: #000876;
+  
+  background-color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@ body {
 .container {
   width: 80vw;
   height: 90vh;
-  background-color: rgba(0, 41, 41, 0.35);
+  background-color: rgba(194, 0, 0, 0.35);
   backdrop-filter: blur(19px) saturate(180%);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
@@ -32,16 +32,16 @@ body {
 }
 
 .chatList::-webkit-scrollbar-track {
-  background: #000876; /* Achtergrond van de scrollbar track */
+  background: #000000; /* Achtergrond van de scrollbar track */
 }
 
 .chatList::-webkit-scrollbar-thumb {
-  background: #0043be; /* Kleur van de scrollbar thumb */
+  background: #580000; /* Kleur van de scrollbar thumb */
   border-radius: 6px; /* Afgeronde hoeken voor de scrollbar thumb */
 }
 
 .chatList::-webkit-scrollbar-thumb:hover {
-  background: #007ccf; /* Kleur van de scrollbar thumb bij hover */
+  background: #420000; /* Kleur van de scrollbar thumb bij hover */
 }
 
 .center::-webkit-scrollbar {
@@ -49,16 +49,16 @@ body {
 }
 
 .center::-webkit-scrollbar-track {
-  background: #000876; /* Achtergrond van de scrollbar track */
+  background: #000000; /* Achtergrond van de scrollbar track */
 }
 
 .center::-webkit-scrollbar-thumb {
-  background: #0043be; /* Kleur van de scrollbar thumb */
+  background: #4d0000; /* Kleur van de scrollbar thumb */
   border-radius: 6px; /* Afgeronde hoeken voor de scrollbar thumb */
 }
 
 .center::-webkit-scrollbar-thumb:hover {
-  background: #007ccf; /* Kleur van de scrollbar thumb bij hover */
+  background: #580000; /* Kleur van de scrollbar thumb bij hover */
 }
 
 .loading{
